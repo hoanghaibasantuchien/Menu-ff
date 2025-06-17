@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Hoang Hai</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      background: url('https://files.catbox.moe/1vse7g.jpeg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .menu-container {
+      width: 90%;
+      max-width: 350px;
+      background-color: #1c1c1c;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #000;
+      overflow: hidden;
+    }
+    .menu-header {
+      background-color: #003366;
+      padding: 12px;
+      font-size: 18px;
+      font-weight: bold;
+      text-align: center;
+    }
+    .menu-content {
+      padding: 15px 20px;
+    }
+    .section-title {
+      color: cyan;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .toggle-option {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 14px;
+      font-size: 15px;
+      color: #ffff66;
+    }
+    .toggle-option span {
+      display: flex;
+      align-items: center;
+    }
+    .toggle-option input[type="checkbox"] {
+      width: 20px;
+      height: 20px;
+      accent-color: #00ccff;
+    }
+    .dot {
+      height: 12px;
+      width: 12px;
+      background-color: yellow;
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="menu-container">
+    <div class="menu-header">Hoang Hai Ba' Ro~</div>
+    <div class="menu-content">
+      <div class="section-title">CHỨC NĂNG</div>
+
+      <div class="toggle-option">
+        <span><span class="dot"></span> Norecoil 📌</span>
+        <input type="checkbox" id="norecoil">
+      </div>
+
+      <div class="toggle-option">
+        <span><span class="dot"></span> Buff Màn 120hz</span>
+        <input type="checkbox" id="buff120hz">
+      </div>
+
+      <div class="toggle-option">
+        <span><span class="dot"></span> Aim 📱</span>
+        <input type="checkbox" id="aim">
+      </div>
+
+      <div class="toggle-option">
+        <span><span class="dot"></span> Sensitivity</span>
+        <input type="checkbox" id="sensitivity">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
